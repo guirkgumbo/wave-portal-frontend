@@ -28,7 +28,7 @@ export default function App() {
   const [currentAccount, setCurrentAccount] = useState("");
   const [mining, setMining] = useState(false);
   const [totalWaves, setTotalWaves] = useState(0);
-  const contractAddress = "0x62eb0Fd10B84A15d9b87d834DE0ee55a235A8539";
+  const contractAddress = "0x2133c1A44c6112C37ba8Ee3F96A69278080EFEDC";
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
